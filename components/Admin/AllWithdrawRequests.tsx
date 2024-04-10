@@ -163,7 +163,7 @@ const AllWithdrawRequests = ({ withdraws }: { withdraws: any }) => {
             <select
               name=""
               id=""
-              value={status}
+              value={withdraw?.status}
               className={`${styles.input} !mt-6 bg-transparent border rounded p-2`}
               onChange={(e) => setStatus(e.target.value)}
             >

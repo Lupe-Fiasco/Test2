@@ -1,5 +1,4 @@
 ai-prompt-marketplace-admin
-===========================
 
 ## Getting Started
 

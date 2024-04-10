@@ -4,15 +4,15 @@ import Heading from "@/utils/Heading";
 import AllInvoices from "@/components/Admin/AllInvoices";
 import { getAllInvoices } from "@/actions/invoices/getAllInvoices";
 
-const Page= async () => {
+const Page = async () => {
   const data = await getAllInvoices();
 
   return (
     <div>
       <Heading
         title="YoungMoney - Admin"
-        description="YoungMoney is a platform for students to learn and get help from teachers"
-        keywords="Programming,MERN,Redux,Machine Learning"
+        description="YoungMoney Best!"
+        keywords="YoungMoney,Fezco,Fez,Front-End"
       />
       <div className="flex min-h-screen">
         <div className="2xl:w-[16%] w-1/5">

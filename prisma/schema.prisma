@@ -91,10 +91,10 @@ model Banks {
   bank_name           String
   bank_address        String
   sellerId            String @unique @db.ObjectId
-  shop                Shops  @relation(fields: [sellerId], references: [id])
+  bank                Shops  @relation(fields: [sellerId], references: [id])
   account_holder_name String
-  account_number      String
-  routing_number      String
+  account_number      Float
+  routing_number      Float
   swift_code          String
 }
 

@@ -12,8 +12,8 @@ const Page: FC<Props> = async (props) => {
     <div>
       <Heading
         title="YoungMoney - Admin"
-        description="YoungMoney is a platform for students to learn and get help from teachers"
-        keywords="Programming,MERN,Redux,Machine Learning"
+        description="YoungMoney Best!"
+        keywords="YoungMoney,Fezco,Fez,Front-End"
       />
       <div className="flex min-h-screen">
         <div className="2xl:w-[16%] w-1/5">

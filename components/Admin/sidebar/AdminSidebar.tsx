@@ -100,6 +100,7 @@ const Sidebar = ({ selected, setSelected }: Props) => {
         }}
       >
         <Menu iconShape="square">
+          {/* LOGO AND MENU ICON */}
           <MenuItem
             onClick={() => setIsCollapsed(!isCollapsed)}
             icon={isCollapsed ? <ArrowForwardIosIcon /> : undefined}
